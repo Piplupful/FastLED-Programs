@@ -3,6 +3,9 @@ Various programs I have made using Arduino's and the FastLED library.
 These programs were tested on a 20 LED strip of Neopixels, if you want to take these programs and modify them
 to your arduino and LED configuration, change the various variable at the top.
 
+All of these programs are in a "Flow" mode, in which the colors flow in a straight line of LEDs down one at a time,
+and their speed is determined by the "delayTime" variable near the top.
+
 Should you not have Neopixels, these lines from the Blink example of the FastLED library should help.
 
       // FastLED.addLeds<TM1803, DATA_PIN, RGB>(leds, NUM_LEDS);
@@ -31,3 +34,5 @@ Should you not have Neopixels, these lines from the Blink example of the FastLED
       // FastLED.addLeds<DOTSTAR, DATA_PIN, CLOCK_PIN, RGB>(leds, NUM_LEDS); 
       
 Should you have any more questions, contact me at Leos32111@gmail.com.
+
+I am also open for requests should anyone see this!
